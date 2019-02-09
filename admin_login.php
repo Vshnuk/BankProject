@@ -2,8 +2,9 @@
   
     if(isset($_POST['admin_login_submit']))
     {
-        // session_start();
-        // $_SESSION['admin_login_successful']=true;
+        session_id("admin");
+        session_start();
+        $_SESSION['admin_login_successful']=true;
         $con=mysqli_connect("localhost","root","","bankdb");
         if(!$con)
             echo ("unsuccesful connection".mysqli_error($con));
@@ -20,7 +21,7 @@
         }
         else
         {
-            // $_SESSION['admin_login_successful']=false;
+            $_SESSION['admin_login_successful']=false;
             echo "<script type='text/javascript'>alert('Login unsuccessful. Try Logging again!!');location=\"user.php\"</script>";
         }
     }

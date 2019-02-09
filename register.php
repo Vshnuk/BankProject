@@ -26,6 +26,6 @@
     }
     else
     {
-        header("Location: index.php");
+        header("Location: registration.php");
     }
 ?>

@@ -5,8 +5,6 @@
     session_unset();
     session_destroy();
     
-    session_id("user");
-    session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">

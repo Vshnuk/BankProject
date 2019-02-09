@@ -1,3 +1,14 @@
+
+<?php
+
+  session_id("admin");
+  session_start();
+  if($_SESSION['admin_login_successful']!=true)
+      header("Location: admin.php");
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +26,7 @@
     <div class="row">
       <div class="col-sm-3"></div>
       <div class="col-sm-7"></div>
-      <div class="col-sm-2"><a href="#" style="color:black"><u>logout</u></a></div>
+      <div class="col-sm-2"><a href="adminlogout.php" style="color:black"><u>logout</u></a></div>
     </div>
 </div>
 </body>

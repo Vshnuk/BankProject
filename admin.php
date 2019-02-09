@@ -1,5 +1,6 @@
 <?php
 
+    session_id("admin");
     session_start();
     $_SESSION['admin_login_successful']=isset($_SESSION['admin_login_successful'])?$_SESSION['admin_login_successful']:null;
     if($_SESSION['admin_login_successful']==true)
