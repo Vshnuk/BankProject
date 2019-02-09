@@ -18,14 +18,13 @@
     <title>Document</title>
 </head>
 <body background="image.jpg">
-    <br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
     <div class="container">
         <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-5">
-                        <h1 style="font-size: 60px">Online Banking</h1>
-                </div>
-
+            <div class="col-sm-4"></div>
+            <div class="col-sm-5">
+                    <h1 style="font-size: 60px">Online Banking</h1>
+            </div>
         </div>
         <br><br><br>
         <div class="row">

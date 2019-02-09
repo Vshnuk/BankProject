@@ -20,7 +20,7 @@
     <title>Document</title>
 </head>
 <body background="image.jpg">
-<br><br><br><br><br><br>
+<br><br><br><br><br>
     <div class="container">
         <div class="row">
                 <div class="col-sm-4"></div>
@@ -29,6 +29,7 @@
                 </div>
 
         </div>
+        <br><br>
         <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
