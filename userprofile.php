@@ -149,7 +149,8 @@
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <input type="button" class="profile-edit-btn" name="btnAddMore" value="Edit Profile" onclick="Javaript:window.location.href = 'edituserprofile.php';"/>
+                        <input type="button" class="profile-edit-btn" name="btnAdd" value="Home" onclick="Javaript:window.location.href = 'welcomeuser.php';"/>
+                        <br><br><input type="button" class="profile-edit-btn" name="btnAddMore" value="Edit Profile" onclick="Javaript:window.location.href = 'edituserprofile.php';"/>
                     </div>
                 </div>
                 <div class="row">
