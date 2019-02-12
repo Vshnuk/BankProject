@@ -63,11 +63,11 @@ if($_SESSION['user_login_successful']!=true)
       </div>           
       </nav>
       <br><br><br>
-<div class="container">     
+<div class="container">    
+<br><br><br><br><br><br><br><br><br><br><br>
     <div class="row">
-        <div class="col-sm-2"></div>
         <div class="col-sm-1"></div>
-        <div class="col-sm-7"><h1 style="font-size:60px"><?php echo "Hi ".$_SESSION['username']."! Welcome,"; ?></h1></div>
+        <div class="col-sm-11"><h1 style="font-size:100px"><?php echo "Hi ".$_SESSION['username']."! Welcome,"; ?></h1></div>
     </div>
 </div>
 </body>

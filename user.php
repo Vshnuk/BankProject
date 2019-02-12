@@ -49,7 +49,7 @@
         </div>
         <div class="row">
             <div class="col-sm-3"></div>
-            <div class="col-sm-3"><pre><h5>New User ? <a href="registration.php" class="href"><u>Register here</u></a></h5></div></pre></div>
+            <div class="col-sm-3"><pre><h5><a href="forgotpassword.php" class="href">Forgot Password</a></h5><h5>New User ? <a href="registration.php" class="href"><u>Register here</u></a></h5></div></pre></div>
         </div>
     </div>
 </body>
